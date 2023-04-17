@@ -50,7 +50,7 @@ PHPAPI size_t php_strlcpy(dst, src, siz)
 {
 	register char *d = dst;
 	register const char *s = src;
-	register size_t n = siz;
+	register  size_t n = siz;
 
 	/* Copy as many bytes as will fit */
 	if (n != 0 && --n != 0) {
